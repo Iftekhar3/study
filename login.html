@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+</head>
+<body>
+    <form action="#" method="get" style="text-align: center;">
+        <P>Username:
+        <input type="text" name="username" size="10" maxlength="15" placeholder="UserName"/>
+        </P>
+        <p>
+            Password: 
+            <input type="password" name="password" size="10" maxlength="15" placeholder="Password"/>
+        </p>
+        
+        <p style="margin-top: 4px;"> What do you think of this?</p>
+        <textarea name="Comment" cols="20" rows="4" placeholder="Enter your Comment"></textarea> 
+        <button>Submit</button>
+        <br>
+        <select name="device" id="device" style="margin-top: 8px;">
+            <option value="Android"> Android</option>
+            <option value="IOS">IOS</option>
+            <option value="PC">PC</option>
+        </select>
+    </form>
+    <button id="login" style="margin-left: 40%;margin-top: 16px;" onclick="window.location.href='menu.html'">Login</button>
+</body>
+</html>
